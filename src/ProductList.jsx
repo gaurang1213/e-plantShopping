@@ -231,8 +231,8 @@ function ProductList(props) {
             ]
         }
     ];
-   const styleObj={
-    backgroundColor: '#615EFC',
+    const styleObj={
+    backgroundColor: '#4CAF50',
     color: '#fff!important',
     padding: '15px',
     display: 'flex',
@@ -251,6 +251,7 @@ function ProductList(props) {
     fontSize: '30px',
     textDecoration: 'none',
    }
+
    const handleCartClick = (e) => {
     e.preventDefault();
     setShowCart(true); // Set showCart to true when cart icon is clicked
